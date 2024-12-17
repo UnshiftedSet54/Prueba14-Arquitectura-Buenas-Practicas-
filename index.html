@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+  <div class="pop-up-message success" id="pop-up-message-success">
+    Datos enviados correctamente.
+  </div>
+  <div class="pop-up-message fail" id="pop-up-message-fail">
+    Usuario y/o contrasen incorrectos.
+  </div>
+  <form id="user-form">
+    <h1>Iniciar Sesion</h1>
+    <fieldset class="input-field">
+      <label for="username">Usuario</label>
+      <input type="text" name="username" id="username">
+      <div class="error-message" id="username-message"></div>
+    </fieldset>
+    <fieldset class="input-field">
+      <label for="password">Contrasena</label>
+      <input type="password" name="password" id="password">
+      <div class="error-message" id="password-message"></div>
+    </fieldset>
+    <button>Ingresar</button>
+  </form>
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>
+
